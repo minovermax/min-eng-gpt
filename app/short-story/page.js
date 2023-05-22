@@ -35,7 +35,7 @@ export default function Home() {
       <div className="flex flex-col gap-6 card bg-indigo-100 w-3/4 p-4">
         <div className="form-control w-3/4 flex flex-col gap-4">
           <h1 className="text-2xl font-bold">Short Story Generator</h1>
-          <textarea className="textarea" ref={textRef}></textarea>
+          <input className="input" ref={textRef}></input>
           <button className="btn btn-indigo rounded-full" onClick={onButtonClick}>
             SUBMIT
           </button>
