@@ -36,6 +36,9 @@ export default function Home() {
         <div className="form-control w-3/4 flex flex-col gap-4">
           <h1 className="text-2xl font-bold">Short Story Generator</h1>
           <input className="input" ref={textRef}></input>
+          
+          <input className="input2"></input>
+
           <button className="btn btn-indigo rounded-full" onClick={onButtonClick}>
             SUBMIT
           </button>
