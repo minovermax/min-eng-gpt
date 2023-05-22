@@ -72,7 +72,7 @@ export async function POST(req) { // calling api (POST)
 
 function generatePrompt(words) {   // prompt that i want to use
     return (
-        `Write a short story with about 100 words that includes the following word:
-        ${words}`
+        `Write 5 individual sentences that includes the following word(s): ${words}.
+        Sentences containing the word(s) ${words}:`
     );
 }
